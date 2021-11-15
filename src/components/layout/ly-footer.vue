@@ -1,15 +1,41 @@
 <template>
-    <footer class="ly-footer">
-        footer
-    </footer>
+  <footer class="ly-footer">
+    <div class="container">
+      <p>
+        © <span id="year" class="d-inline-block">2021</span> | Made with 💜 by
+        <a href="https://davidkolisek.netlify.app/" target="_blank"
+          >davidkolisek</a
+        >
+      </p>
+    </div>
+  </footer>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+//   mounted: function () {
+//   this.$nextTick(function () {
+//     getYear() {
+//       document.getElementById("year").innerHTML = new Date().getFullYear();
+//     }
+//   })
+// }
+};
 </script>
 
 <style lang="scss" scoped>
-
+footer {
+  background: $c-secondary-900;
+  text-align: center;
+  p {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
+}
 </style>
