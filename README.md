@@ -1,5 +1,9 @@
-# davkol
+# word-case-converter
 
+## Project compile & run on mobile
+1. Build web app with `npm run build` (compile web app to `dist` folder)
+2. `npx cap add android` build dist folder to android app (`npx cap add ios` for ios)
+3. `npx cap run` start mobile app
 ## Project setup
 ```
 npm install

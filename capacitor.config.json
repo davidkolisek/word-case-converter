@@ -1,0 +1,6 @@
+{
+  "appId": "petfree.app",
+  "appName": "petfree",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

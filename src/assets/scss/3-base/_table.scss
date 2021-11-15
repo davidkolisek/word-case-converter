@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.main-table {
+  padding: 16px;
+  width:100%;
+.table-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .table-cell {
+        &:nth-child(1){
+            p {
+                color: $c_1;
+            }
+        }
+    }
+}
+}
+
+//wrapper for responsive table
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}

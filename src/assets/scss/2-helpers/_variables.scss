@@ -1,0 +1,70 @@
+
+//primary pallete
+$c-primary-50: #e9e8ff;
+$c-primary-100: #c0bcf9;
+$c-primary-200: #9892ef;
+$c-primary-300: #6f66e6;
+$c-primary-400: #463ade;
+$c-primary-500: #2d21c5;
+$c-primary-600: #221a9a;
+$c-primary-700: #17116f;
+$c-primary-800: #0c0a45;
+$c-primary-900: #04031d;
+
+//secondary pallete
+$c-secondary-50: #fff6da;
+$c-secondary-100: #ffe5ad;
+$c-secondary-200: #ffd37d;
+$c-secondary-300: #ffc24b;
+$c-secondary-400: #ffb11a;
+$c-secondary-500: #e69700;
+$c-secondary-600: #b37600;
+$c-secondary-700: #815400;
+$c-secondary-800: #4e3200;
+$c-secondary-900: #1e1000;
+
+//warn pallete
+$c-warn-50: #ffe6e3;
+$c-warn-100: #febbb5;
+$c-warn-200: #f88e86;
+$c-warn-300: #f46358;
+$c-warn-400: #f03729;
+$c-warn-500: #d61f0f;
+$c-warn-600: #a7160b;
+$c-warn-700: #790e07;
+$c-warn-800: #4a0702;
+$c-warn-900: #1f0000;
+
+//fonts colors
+$primary-font-color: #333333;
+$secondary-font-color: #666666;
+
+//other colors
+$white_c: #fff;
+$black_c: #000;
+$c_1: #ccc;
+$divider_c: #ccc;
+
+//breakpoints
+$bp-phone-small: 576px;
+$bp-phone: 768px;
+$bp-tablet: 991px;
+$bp-laptop: 1199px;
+
+//fonts
+$default-fs: 16px;
+$primary-font-family: "Roboto Condensed", sans-serif;
+$secondary-font-family: "Roboto", sans-serif;
+
+//transition
+$primary-transition: all 0.15s ease-in-out;
+
+//box shadow
+$primary-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+  0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+//border-radius
+$primary-radius: 5px;
+$secondary-radius: 12px;
+$circle-radius: 999px;
+$zero-radius: 0;
