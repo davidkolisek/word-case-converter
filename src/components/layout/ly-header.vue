@@ -20,6 +20,7 @@ export default {
   text-align: center;
   h1 {
     font-size: 2.5rem;
+  color: $c-secondary-400;
   }
   p {
     font-size: 1rem;
