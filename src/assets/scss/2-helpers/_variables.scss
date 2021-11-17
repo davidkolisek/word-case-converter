@@ -67,3 +67,19 @@ $primary-radius: 5px;
 $secondary-radius: 12px;
 $circle-radius: 999px;
 $zero-radius: 0;
+
+
+@mixin smooth-transition($trans) {
+  -webkit-transition: $trans;
+  -moz-transition: $trans;
+  -o-transition: $trans;
+  transition: $trans;
+}
+
+
+@mixin box-shadows($box-sh) {
+  -webkit-box-shadow: $box-sh;
+  -moz-box-shadow: $box-sh;
+  box-shadow: $box-sh;
+}
+
