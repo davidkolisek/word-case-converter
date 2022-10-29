@@ -1,27 +1,29 @@
 //primary pallete
 
-$c-primary-50: #ffe5fc;
-$c-primary-100: #fbb8e9;
-$c-primary-200: #f48bd8;
-$c-primary-300: #ee5dc8;
-$c-primary-400: #e830b6;
-$c-primary-500: #cf179d;
-$c-primary-600: #a20f7a;
-$c-primary-700: #740858;
-$c-primary-800: #480335;
-$c-primary-900: #1d0015;
+
+  $c-primary-50: #ffe4f3;
+  $c-primary-100: #ffb4d5;
+  $c-primary-200: #fa84b7;
+  $c-primary-300: #f7549a;
+  $c-primary-400: #f4267d;
+  $c-primary-500: #db0f63;
+  $c-primary-600: #ab084d;
+  $c-primary-700: #7b0337;
+  $c-primary-800: #4b0021;
+  $c-primary-900: #1e000d;
 
 //secondary pallete
-$c-secondary-50: #fff6da;
-$c-secondary-100: #ffe5ad;
-$c-secondary-200: #ffd37d;
-$c-secondary-300: #ffc24b;
-$c-secondary-400: #ffb11a;
-$c-secondary-500: #e69700;
-$c-secondary-600: #b37600;
-$c-secondary-700: #815400;
-$c-secondary-800: #4e3200;
-$c-secondary-900: #1e1000;
+
+  $c-secondary-50: #e0f3ff;
+  $c-secondary-100: #b8d7fb;
+  $c-secondary-200: #8cbdf3;
+  $c-secondary-300: #5fa2ec;
+  $c-secondary-400: #3587e6;
+  $c-secondary-500: #1d6ecc;
+  $c-secondary-600: #1355a0;
+  $c-secondary-700: #093d73;
+  $c-secondary-800: #012547;
+  $c-secondary-900: #000d1d;
 
 //warn pallete
 $c-warn-50: #ffe6e3;
@@ -53,7 +55,7 @@ $bp-laptop: 1199px;
 
 //fonts
 $default-fs: 16px;
-$primary-font-family: "Roboto", sans-serif;
+$primary-font-family: "Lexend", sans-serif;
 
 //transition
 $primary-transition: all 0.15s ease-in-out;

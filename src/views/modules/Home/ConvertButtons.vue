@@ -1,21 +1,12 @@
 <template>
+    <p>Convert text to...</p>
   <div class="btns">
-    <p>2. Click to convert</p>
-    <div>
-      <button class="main-btn-primary" @click="makeUppercase">UPPERCASE</button>
-    </div>
-    <div>
-      <button class="main-btn-primary" @click="makeLowercase">lowercase</button>
-    </div>
-    <div>
-      <button class="main-btn-primary" @click="makeSentencecase">
+      <button class="main-btn-secondary" @click="makeUppercase">UPPERCASE</button>
+      <button class="main-btn-secondary" @click="makeLowercase">lowercase</button>
+      <button class="main-btn-secondary" @click="makeSentencecase">
         Sentence case
       </button>
-    </div>
     <div class="last">
-      <button class="main-btn-secondary" @click="copyToClipboard">
-        <i class="icon-copy"></i>Copy!
-      </button>
     </div>
   </div>
 </template>
@@ -44,57 +35,52 @@ export default {
           return c.toUpperCase();
         });
     },
-    copyToClipboard() {
-      var aux = document.createElement("input");
-      aux.setAttribute("value", document.querySelector("#textPlace").value);
-      document.body.appendChild(aux);
-      aux.select();
-      document.execCommand("copy");
-      document.body.removeChild(aux);
-      document.querySelector(".copied-popup").classList.add("active");
-      setTimeout(function () {
-        document.querySelector(".copied-popup").classList.remove("active");
-      }, 3000);
-    },
   },
 };
 </script>
 
 <style lang="scss" scoped>
 button {
-  padding: 0.75rem 2.5rem;
+  padding: 1rem 4rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   min-width: 220px;
+    transition: all ease 200ms;
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+  &:hover {
+    transform: translateY(-2px);
+    transition: all ease 200ms;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
 }
 
 .btns {
   display: flex;
-  flex-direction: column;
-  margin-left: 2rem;
-  div {
+  flex-direction: row;
+  flex-wrap: wrap;
     &.last {
       button {
         margin-bottom: 0;
       }
     }
-  }
   @media (max-width: 991px) {
-    margin-top: 2rem;
     margin-left: 0;
     button {
       width: 100%;
       margin-bottom: 1rem;
+      margin-right: 0;
     }
   }
 }
 p {
-  color: $c-primary-900;
-  margin-bottom: 0;
+  color: #596080;
+  margin-bottom: 10px;
+  margin-top: 38px;
   padding-bottom: 0.25rem;
 }
 </style>

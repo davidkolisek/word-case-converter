@@ -4,6 +4,7 @@
   &-primary {
     background-color: $c-primary-500;
     color: $white_c;
+    font-family: $primary-font-family;
 
     &:hover {
       background-color: lighten($c-primary-500, 5%);
@@ -17,16 +18,17 @@
   }
 
   &-secondary {
-    background-color: lighten($c-secondary-500, 15%);
+    font-family: $primary-font-family;
+    background-color: lighten($c-secondary-600, 15%);
     color: $white_c;
 
     &:hover {
-      background-color: lighten($c-secondary-500, 10%);
+      background-color: lighten($c-secondary-700, 10%);
       @include smooth-transition($primary-transition);
     }
 
     &:active {
-      background-color: lighten($c-secondary-500, 5%);
+      background-color: lighten($c-secondary-600, 5%);
       @include smooth-transition($primary-transition);
     }
   }

@@ -23,11 +23,15 @@ export default {
 <style lang="scss" scoped>
 .text-window {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 2rem 0;
+  position: relative;
+  z-index: 2;
+  margin-top: -90px;
   @media (max-width:991px) {
     flex-direction: column;
-    padding: 0 0 2rem;
+    padding: 0 15px 2rem;
+
   }
 }
 .copied-popup {

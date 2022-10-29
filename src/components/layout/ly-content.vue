@@ -16,8 +16,9 @@ export default {
 
 <style lang="scss" scoped>
   .ly-content{
-    min-width: 900px;
+    width: 100%;
     margin: 0 auto;
+    max-width: 1199px;
     @media(max-width: 991px){
       min-width: unset;
     }
